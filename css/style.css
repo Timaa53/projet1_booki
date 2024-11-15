@@ -147,6 +147,26 @@ a {
 
 /* Activités */
 
+.activites-main {
+    gap: 30px;
+}
+
+.activites-list {
+    display: flex;
+}
+
+.activites-articles {
+    display: flex;
+    flex-direction: column;
+}
+
+.activites-articles img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 297,5px;
+    height: 380px;
+}
+
 /* Footer */
 .footer-main {
     display: flex;
