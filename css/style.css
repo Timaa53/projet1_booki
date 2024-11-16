@@ -107,11 +107,6 @@ a {
     gap: 30px;
 } 
 
-/* .hebergements-card-content {
-    display: flex;
-    border-radius: 20px;
-} */
-
 .hebergements-articles {
     display: flex;
     flex-direction: column;
