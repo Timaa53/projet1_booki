@@ -101,26 +101,36 @@ a {
     width: 65%; 
 }
 
-.hebergements-cards {
+.hebergements-cards .hebergements-articles {
     display: flex;
-    flex-direction: row;
-    gap: 30px;
-} 
+    width: 33%;
+    height: 207.25px;
+    margin-top: 33px;
+}
+
+.hebergements-cards img {
+    height: 59.83%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 5px;
+}
 
 .hebergements-articles {
     display: flex;
     flex-direction: column;
     background-color: white;
     border-radius: 20px;
-    width: 250.33px;
     padding-bottom: 15px;
     gap: 4px;
 }
-.hebergements-articles img {
-    height: 124px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    padding: 5px;
+
+
+.hebergements-txt {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+    gap: 8px;
 }
 
 
