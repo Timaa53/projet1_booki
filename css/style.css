@@ -13,6 +13,11 @@
     color: var(--main-color);
 }
 
+.fa-solid.fa-circle-info {
+    color: var(--main-bg-color);
+    background-color: var(--main-color);
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -104,13 +109,13 @@ En cours de réalisation - début bloc - date(19/11/2024)
     color: black;
 }
 
-
-
-
 .accomodation-infobar {
     display: flex;
     flex-direction: row;
+    background-color: white;
 }
+
+
 
 /****************************************************
 En cours de réalisation - Fin bloc - date(19/11/2024)
