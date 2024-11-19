@@ -61,7 +61,7 @@ a {
 
 
 /****** Header ******/
-.main-logo {
+.header-logo {
     width: 61.09px;
     height: 19px;
 }
@@ -76,10 +76,46 @@ a {
 }
 
 .nav-link:hover {
-    color:#0065FC;
-    box-shadow: 0 -2px 0 0 #0065FC;
+    color: var(--main-color);
+    box-shadow: 0 -2px 0 0 var(--main-color);
     padding-top: 6px;
 }
+
+
+/******************************************************
+En cours de réalisation - début bloc - date(19/11/2024)
+*******************************************************/
+
+/* Recherche d'hébergements */
+.accommodation-search {
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+
+.accomodation-search-main {
+    display: flex;
+    border-radius: 15px;
+    width: 132px;
+    height: 49px;
+}
+
+.accomodation-search-icon i{
+    background-color: var(--main-bg-color);
+    color: black;
+}
+
+
+
+
+.accomodation-infobar {
+    display: flex;
+    flex-direction: row;
+}
+
+/****************************************************
+En cours de réalisation - Fin bloc - date(19/11/2024)
+*****************************************************/
+
 
 
 /****** Hebergements And Populaires ***********/
@@ -132,7 +168,6 @@ a {
     flex-direction: column;
     padding-left: 15px;
     padding-right: 15px;
-    /* gap: 4px; */
     justify-content: space-between;
 }
 
@@ -147,7 +182,6 @@ a {
 
 .hebergement-afficherplus {
     font-size: 18px;
-    font-weight: bold;
 }
 
 /****** Populaires ***********/
