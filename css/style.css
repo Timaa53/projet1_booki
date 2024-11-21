@@ -82,48 +82,105 @@ a {
 }
 
 
-/******************************************************
-En cours de réalisation - début bloc - date(19/11/2024)
-*******************************************************/
-
 /* Recherche d'hébergements */
 .accommodation-search {
     padding-bottom: 35px;
     padding-top: 35px;
 }
 
-.accomodation-search-main {
+.accomodation-search-bar {
     display: flex;
+    align-items: center;
     border-radius: 15px;
-    width: 132px;
+    border: 1px solid var(--main-bg-color);
+    width: 377px;
     height: 49px;
 }
 
 .accomodation-search-icon i{
-    /* background-color: var(--main-bg-color); */
+    width: 50px;
+    height: 49px;
+
+    background-color: var(--main-bg-color);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.fa-location-dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14px;
+    height: 18px;
     color: black;
+}
+
+.accomodation-search-txt input{
+    display: flex;
+    text-align: center;
+    width: 195px;
+    height: 21px;
+    border: none;
+    outline: none;
+}
+
+.accomodation-search-bar button{
+    width: 132px;
+    height: 49px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    background-color: var(--main-color);
+    color: white;
+    font-weight: 700;
 }
 
 .accomodation-filters {
     display: flex;
     gap: 15px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    width: 758px;
+    height: 50px;
 }
 
 .accomodation-filters h3{
     font-size: 18px;
     font-weight: 700;
+    height: 21px;
+    width: 54px;
+    margin-top: 13px;
+}
+
+.accomodation-filters p{
+    font-size: 17px;
 }
 
 .accomodation-filters button{
     display: flex;
     flex-direction: row;
-    height: 50px;
     align-items: center;
     justify-content: center;
     border-radius: 25px;
     border: 2px solid #D9D9D9;
     background-color: transparent;
     gap: 2px;
+}
+
+.economic-btn{
+    width: 173px;
+}
+
+.family-btn{
+    width: 134px;
+}
+
+.romantic-btn{
+    width: 170px;
+}
+
+.favorites-btn{
+    width: 167px;
 }
 
 .accomodation-filters button:hover{
@@ -158,12 +215,6 @@ En cours de réalisation - début bloc - date(19/11/2024)
 }
 
 
-/****************************************************
-En cours de réalisation - Fin bloc - date(19/11/2024)
-*****************************************************/
-
-
-
 /****** Hebergements And Populaires ***********/
 #id-hebergements-and-populaires {
     display: flex;
@@ -177,6 +228,7 @@ En cours de réalisation - Fin bloc - date(19/11/2024)
     padding: 30px;
     box-sizing: border-box;
 }
+
 
 /****** Hebergements ***********/
 .hebergements {
@@ -230,6 +282,7 @@ En cours de réalisation - Fin bloc - date(19/11/2024)
     font-size: 18px;
 }
 
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -275,15 +328,14 @@ En cours de réalisation - Fin bloc - date(19/11/2024)
     margin-bottom: 5px;
 }
 
-/* Activités */
 
+/* Activités */
 #id-activites {
     padding: 30px;
 }
 
 .activites-list {
     display: flex;
-    /* gap: 30px; */
     justify-content: space-between;
 }
 
